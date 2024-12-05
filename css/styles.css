@@ -13,17 +13,34 @@ list-style-type: none;
 padding: 5px;
 }
 
+li {
+font-family: "aktiv-grotesk-extended", sans-serif;
+font-size: 20px;
+font-weight: 400;
+font-style: normal;
+}
+
 .container-navigation {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
-main {
 
+
+main h1 {
+    font-family: "quiche-text", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 100px;
+    text-align: center;
 }
 
-    main h1{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    main h2{
+        font-family: "aktiv-grotesk-extended", sans-serif;
+        font-weight: 700;
+        font-style: normal;
         font-size: 100px;
         text-align: center;
     
