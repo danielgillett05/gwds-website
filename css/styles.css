@@ -1,17 +1,37 @@
 body {
     background-color: black;
+    color: white;
 }
 
-header{ 
+header { 
 
 
 }
 
-nav ul {
+ul {
+list-style-type: none;
+padding: 5px;
+}
 
+.container-navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+
+}
+
+    main h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 100px;
+        text-align: center;
+    
 }
 
 footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     text-align: center;
     padding: 5px;
     background: #FF001D;
