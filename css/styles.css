@@ -1,3 +1,24 @@
-body{
-    background-color: aqua;
+body {
+    background-color: black;
+}
+
+header{ 
+
+
+}
+
+nav ul {
+
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background: #FF001D;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+
 }
