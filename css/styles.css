@@ -11,7 +11,7 @@ padding: 0px;
 display: flex;
 justify-content: flex-end;
 margin: 0;
-gap: 20px;
+gap: 30px;
 }
 
 li {
@@ -19,7 +19,8 @@ font-family: "aktiv-grotesk-extended", sans-serif;
 font-size: 20px;
 font-weight: 400;
 font-style: normal;
-margin: 0 10px;
+padding: 20px;
+
 }
 
 a {
