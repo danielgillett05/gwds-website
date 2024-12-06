@@ -94,7 +94,7 @@ main {
     position: relative;
 }
 
-main h1 {
+h1 {
     font-family: "quiche-text", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -102,7 +102,7 @@ main h1 {
     text-align: center;
 }
 
-    main h2{
+    h2{
         font-family: "aktiv-grotesk-extended", sans-serif;
         font-weight: 700;
         font-style: normal;
@@ -125,17 +125,4 @@ footer {
     bottom: 0;
     width: 100%;
     z-index: 1;
-}
-
-footer:hover {
-    background: linear-gradient(black, #FF001D, black);
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    font-size: 50px;
-    font-weight: 700;
-    transition: transform 0.3s ease;
-
 }
