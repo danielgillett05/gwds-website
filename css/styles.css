@@ -92,14 +92,13 @@ main h1 {
     font-style: italic;
     font-size: 300px;
     text-align: center;
-    padding: 0px;
 }
 
     main h2{
         font-family: "aktiv-grotesk-extended", sans-serif;
         font-weight: 700;
         font-style: normal;
-        font-size: 125px;
+        font-size: 75px;
         text-align: center;
         color: #FF001D
     
@@ -117,7 +116,17 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
 
+footer:hover {
+    background: linear-gradient(black, #FF001D, black)
+}
 
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 700;
+    transition: transform 0.3s ease;
 
 }
