@@ -2,7 +2,7 @@ let angle = 0;
 
 function setup() {
 createCanvas(windowWidth, windowHeight);
-canvas.style('position', 'absolute')
+canvas.style('position', 'absolute');
 canvas.style('z-index', '-1');
 angleMode(DEGREES);
 noStroke();
