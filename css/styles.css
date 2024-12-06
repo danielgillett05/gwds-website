@@ -1,5 +1,4 @@
 body {
-    background-color: black;
     color: white;
     margin: 0;
     font-family: "aktiv-grotesk-extended", sans-serif;
@@ -100,7 +99,7 @@ main h1 {
         font-style: normal;
         font-size: 75px;
         text-align: center;
-        color: #FF001D
+        color: rgb(170, 170, 170);
     
 }
 
