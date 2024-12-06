@@ -92,6 +92,7 @@ main h1 {
     font-style: italic;
     font-size: 300px;
     text-align: center;
+    padding: 0px;
 }
 
     main h2{
@@ -105,7 +106,9 @@ main h1 {
 }
 
 footer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "aktiv-grotesk-extended", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 20px;
     text-align: center;
     padding: 5px;
@@ -114,6 +117,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+
 
 
 }
