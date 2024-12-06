@@ -4,6 +4,8 @@ body {
     font-family: "aktiv-grotesk-extended", sans-serif;
     overflow: hidden;
     position: relative;
+    background: radial-gradient(circle, #FF001D 20%, transparent 20%) 0 0, radial-gradient(circle, #FF001D 20%, transparent 20%) 0 10px;
+    background-size: 10px 20px;
 }
 
 canvas {
@@ -17,10 +19,6 @@ canvas {
 
 header {
     padding: 0px;
-    font-family: "aktiv-grotesk-extended", sans-serif;
-    font-size: 40px;
-    font-weight: 400;
-    font-style: normal;
     text-align: center;
     z-index: 1;
 }
@@ -62,7 +60,7 @@ a::after {
     bottom: -2px;
     width: 0;
     height: 2px;
-    background-color: #FF001D;
+    background-color: white;
     transition: width 0.3s ease;
 }
 
@@ -96,11 +94,6 @@ main {
     position: relative;
 }
 
-main h1, main h2 {
-    font-size: 60px;
-    margin: 0px;
-}
-
 main h1 {
     font-family: "quiche-text", sans-serif;
     font-weight: 700;
@@ -115,7 +108,7 @@ main h1 {
         font-style: normal;
         font-size: 75px;
         text-align: center;
-        color: rgb(170, 170, 170);
+        color: white;
     
 }
 
@@ -135,7 +128,7 @@ footer {
 }
 
 footer:hover {
-    background: linear-gradient(black, #FF001D, black)
+    background: linear-gradient(black, #FF001D, black);
 }
 
 footer a {
