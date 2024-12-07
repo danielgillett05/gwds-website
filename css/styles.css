@@ -9,5 +9,30 @@ body {
     font-weight: 400;
     font-style: normal;
     background-color: black;
-    
+    padding: 0;
+    margin: 0
+}
+
+.container-navigation {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    background-color: grey;
+    color: white;
+    padding: 20px 0;
+}
+
+header ul {
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header ul li{
+margin: 0 15px;
+
 }
