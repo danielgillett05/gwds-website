@@ -1,0 +1,124 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+body {
+    font-family: "aktiv-grotesk-extended", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #39594D;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%), linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%);
+    background-size: 10px 10px;
+    background-position: 0 0, 5px 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0
+}
+
+.container-navigation {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #212620;
+    color: white;
+    padding: 20px 0;
+}
+
+header ul {
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header ul li{
+margin: 0 15px;
+}
+
+header ul li a {
+color: white;
+text-decoration: none;
+position: relative;
+transition: color 0.3s ease, transform 0.3s ease;
+}
+
+header ul li a::after {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+
+}
+header ul li a:hover {
+    color: #f1f1f1;
+    transform: scale(1.1)
+}
+
+header ul li a:hover::after {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0;
+    padding: 0 20px;
+    flex-grow: 1;
+}
+
+main h1 {
+    font-size: 10em;
+    font-family: "didoni-urw", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    margin-bottom: -20px;
+}
+
+main h2 {
+    font-size: 2em;
+}
+
+footer {
+    background-color: #212620;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+    }
+
+    header ul li {
+        margin-bottom: 10px;
+    }
+
+    main h1 {
+        font-size: 8em;
+    }
+
+    main h2 {
+        font-size: 1.8em;
+    }
+}
