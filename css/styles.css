@@ -8,7 +8,10 @@ body {
     font-family: "aktiv-grotesk-extended", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: black;
+    background-color: #39594D;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%), linear-gradient(-45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%);
+    background-size: 10px 10px;
+    background-position: 0 0, 5px 5px;
     padding: 0;
     margin: 0
 }
@@ -20,7 +23,7 @@ body {
 }
 
 header {
-    background-color: grey;
+    background-color: #212620;
     color: white;
     padding: 20px 0;
 }
@@ -43,6 +46,41 @@ main {
 }
 
 main h1 {
-    font-size: 3em;
-    font-family: ""
+    font-size: 10em;
+    font-family: "didoni-urw", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+}
+
+main h2 {
+    font-size: 2em;
+}
+
+footer {
+    background-color: #212620;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+    }
+
+    header ul li {
+        margin-bottom: 10px;
+    }
+
+    main h1 {
+        font-size: 8em;
+    }
+
+    main h2 {
+        font-size: 1.8em;
+    }
 }
