@@ -91,6 +91,33 @@ main h1 {
     margin-bottom: -20px;
 }
 
+.worksheets {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 120px;
+}
+
+.worksheet {
+    background-color: #212620;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.worksheet img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.worksheet p {
+    font-size: 1em;
+}
+
 footer {
     background-color: #212620;
     color: white;
