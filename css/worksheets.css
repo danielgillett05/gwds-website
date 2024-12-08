@@ -18,7 +18,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0;
-    margin: 0
+    margin: 0;
+    min-height: 100vh;
 }
 
 .container-navigation {
@@ -80,6 +81,7 @@ main {
     margin: 40px 0;
     padding: 0 20px;
     flex-grow: 1;
+    width: 100%;
 }
 
 main h1 {
@@ -94,30 +96,48 @@ main h1 {
 .worksheets {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    margin: 40px auto;
-    max-width: 120px;
+    gap: 2rem;
 }
 
 .worksheet {
     background-color: #212620;
-    padding: 15px;
     border-radius: 8px;
-    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.worksheet:hover {
+    transform: translateY(-5px);
 }
 
 .worksheet img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    display: block;
 }
 
 .worksheet p {
-    font-size: 1em;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #212620;
 }
 
+.reflection {
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.reflection h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.reflection p {
+    font-size: 1rem;
+}
 footer {
     background-color: #212620;
     color: white;
@@ -126,6 +146,7 @@ footer {
     margin-top: 40px;
     font-size: 16px;
     letter-spacing: 0.5px;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
