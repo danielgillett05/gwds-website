@@ -89,10 +89,13 @@ main h1 {
     font-style: italic;
     color: white;
     margin-bottom: -20px;
+    text-decoration: underline;
+    text-decoration-thickness: 10px
 }
 
 main h2 {
     font-size: 2em;
+    color: white;
 }
 
 footer {
